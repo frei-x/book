@@ -1,0 +1,21 @@
+{
+  "name": "excerpt",
+  "description": "读书摘抄",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "push": "git push origin && git push gitee",
+  },
+  "dependencies": {
+    "element-plus": "latest",
+    "sass": "^1.32.11",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.0.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "vite": "^2.0.0-beta.12",
+    "vite-plugin-style-import": "^0.10.0"
+  }
+}
