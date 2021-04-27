@@ -7,6 +7,11 @@ const { resolve } = require('path');
  * @type {import('vite').UserConfig}
  */
 export default {
+  base: './',
+  server: {
+    port: 3001
+  },
+
   plugins: [
     vue(),
     styleImport({
@@ -15,11 +20,11 @@ export default {
           libraryName: 'element-plus',
           esModule: true,
           ensureStyleFile: true,
-          resolveStyle: name => {
+          resolveStyle: (name) => {
             name = name.slice(3);
             return `element-plus/packages/theme-chalk/src/${name}.scss`;
           },
-          resolveComponent: name => {
+          resolveComponent: (name) => {
             return `element-plus/lib/${name}`;
           }
         }

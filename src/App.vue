@@ -3,7 +3,7 @@
 </template>
 
 <script setup>
-import Home from './Home.vue';
+import Home from './Home.vue'
 </script>
 
 <style>
@@ -15,7 +15,8 @@ import Home from './Home.vue';
   color: #2c3e50;
   margin-top: 60px;
 }
-.element-plus-logo {
-  width: 50%;
+.pre-wrap,
+.pre-wrap .cell {
+  white-space: pre-wrap !important;
 }
 </style>
