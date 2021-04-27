@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "push": "git push origin && git push gitee",
+    "push": "git push origin master && git push gitee master"
   },
   "dependencies": {
     "element-plus": "latest",
